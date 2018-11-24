@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 using MvvmCross.Presenters.Attributes;
 
 namespace KrzBB.SegmentButtonViewModel_MVVMCross.iOS.Attributes
 {
+    [AttributeUsage(AttributeTargets.Class, AllowMultiple = true)]
     public class SegmentPresentationAttribute : MvxBasePresentationAttribute
     {
         public string Text { get; set; }

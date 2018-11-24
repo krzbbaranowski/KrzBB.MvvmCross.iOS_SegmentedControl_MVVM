@@ -105,6 +105,8 @@
     <InterfaceDefinition Include="Views\Tabs\SecondTabView.xib" />
     <InterfaceDefinition Include="Resources\Main.storyboard" />
     <InterfaceDefinition Include="Views\Tabs\ThirdTabView.xib" />
+    <InterfaceDefinition Include="Views\Tabs\FirstNestedView.xib" />
+    <InterfaceDefinition Include="Views\Tabs\SecondNestedView.xib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -135,11 +137,21 @@
     <Compile Include="ViewModel\SecondViewModel.cs" />
     <Compile Include="Setup.cs" />
     <Compile Include="App.cs" />
-    <Compile Include="Views\TouchPresentation.cs" />
     <Compile Include="ViewModel\ThirdViewModel.cs" />
     <Compile Include="Views\Tabs\ThirdTabView.cs" />
     <Compile Include="Views\Tabs\ThirdTabView.designer.cs">
       <DependentUpon>ThirdTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyCustomPresenter.cs" />
+    <Compile Include="ViewModel\FirstNestedViewModel.cs" />
+    <Compile Include="ViewModel\SecondNestedViewModel.cs" />
+    <Compile Include="Views\Tabs\FirstNestedView.cs" />
+    <Compile Include="Views\Tabs\FirstNestedView.designer.cs">
+      <DependentUpon>FirstNestedView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Tabs\SecondNestedView.cs" />
+    <Compile Include="Views\Tabs\SecondNestedView.designer.cs">
+      <DependentUpon>SecondNestedView.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

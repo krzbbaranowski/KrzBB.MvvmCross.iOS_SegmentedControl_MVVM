@@ -5,6 +5,7 @@ using MvvmCross.Platforms.Ios.Core;
 using MvvmCross.Platforms.Ios.Presenters;
 using KrzBB.SegmentButtonViewModel_MVVMCross.iOS.Views;
 using UIKit;
+using KrzBB.SegmentButtonViewModel_MVVMCross.iOS;
 
 namespace AppDemo
 {

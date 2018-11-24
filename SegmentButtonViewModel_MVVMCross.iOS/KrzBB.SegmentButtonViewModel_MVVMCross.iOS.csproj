@@ -59,6 +59,7 @@
     <Folder Include="Resources\" />
     <Folder Include="Attributes\" />
     <Folder Include="Views\" />
+    <Folder Include="Presenters\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="Views\SegmentedTabBarViewController.cs" />
     <Compile Include="Views\ISegmentedControlViewController.cs" />
     <Compile Include="Views\ITouchViewControllerPresenter.cs" />
+    <Compile Include="Presenters\SegmentedControlPresenter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

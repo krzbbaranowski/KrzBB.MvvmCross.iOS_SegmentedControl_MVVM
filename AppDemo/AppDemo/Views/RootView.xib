@@ -31,28 +31,36 @@
                     </segments>
                     <color key="tintColor" red="1" green="0.21550735500000001" blue="0.17773594810000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </segmentedControl>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsB-2t-E6D">
-                    <rect key="frame" x="20" y="617" width="335" height="30"/>
-                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
-                    <state key="normal" title="Add segment"/>
-                </button>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GR8-6c-IIK">
                     <rect key="frame" x="20" y="88" width="335" height="509"/>
                     <color key="backgroundColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
+                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eUy-JT-8wy">
+                    <rect key="frame" x="20" y="617" width="335" height="30"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsB-2t-E6D">
+                            <rect key="frame" x="0.0" y="0.0" width="335" height="30"/>
+                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                            <state key="normal" title="Add segment"/>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="pQn-5W-r2B"/>
+                    </constraints>
+                </stackView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="eUy-JT-8wy" firstAttribute="top" secondItem="GR8-6c-IIK" secondAttribute="bottom" constant="20" id="FVm-oC-tZg"/>
                 <constraint firstItem="gOZ-g8-Q73" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" id="HFx-5Q-eeJ"/>
-                <constraint firstItem="meB-x7-Ih1" firstAttribute="trailing" secondItem="gsB-2t-E6D" secondAttribute="trailing" constant="20" id="Ldy-GP-8C5"/>
+                <constraint firstItem="eUy-JT-8wy" firstAttribute="leading" secondItem="meB-x7-Ih1" secondAttribute="leading" constant="20" id="IjR-Fk-dhh"/>
+                <constraint firstItem="meB-x7-Ih1" firstAttribute="trailing" secondItem="eUy-JT-8wy" secondAttribute="trailing" constant="20" id="N6V-SB-tZ8"/>
                 <constraint firstItem="gOZ-g8-Q73" firstAttribute="top" secondItem="meB-x7-Ih1" secondAttribute="top" constant="20" id="ODR-Fa-KZE"/>
-                <constraint firstItem="meB-x7-Ih1" firstAttribute="bottom" secondItem="gsB-2t-E6D" secondAttribute="bottom" constant="20" id="UFe-Od-HAe"/>
                 <constraint firstItem="GR8-6c-IIK" firstAttribute="top" secondItem="gOZ-g8-Q73" secondAttribute="bottom" constant="20" id="XFL-lw-7iI"/>
                 <constraint firstItem="GR8-6c-IIK" firstAttribute="leading" secondItem="meB-x7-Ih1" secondAttribute="leading" constant="20" id="YMa-eL-5og"/>
-                <constraint firstItem="meB-x7-Ih1" firstAttribute="trailing" secondItem="GR8-6c-IIK" secondAttribute="trailing" constant="20" id="aud-DS-ILg"/>
-                <constraint firstItem="gsB-2t-E6D" firstAttribute="leading" secondItem="meB-x7-Ih1" secondAttribute="leading" constant="20" id="dWe-fj-plm"/>
+                <constraint firstItem="meB-x7-Ih1" firstAttribute="right" secondItem="GR8-6c-IIK" secondAttribute="right" constant="20" id="aud-DS-ILg"/>
+                <constraint firstItem="meB-x7-Ih1" firstAttribute="bottom" secondItem="eUy-JT-8wy" secondAttribute="bottom" constant="20" id="bMM-i7-qHL"/>
                 <constraint firstAttribute="trailing" secondItem="gOZ-g8-Q73" secondAttribute="trailing" constant="20" id="fih-Cs-Rd1"/>
-                <constraint firstItem="gsB-2t-E6D" firstAttribute="top" secondItem="GR8-6c-IIK" secondAttribute="bottom" constant="20" id="nFK-Wq-BzI"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="meB-x7-Ih1"/>
         </view>

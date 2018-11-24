@@ -23,6 +23,11 @@ namespace Demo.iOS.Views
 		
 		void ReleaseDesignerOutlets ()
 		{
+			if (AddSegment != null) {
+				AddSegment.Dispose ();
+				AddSegment = null;
+			}
+
 			if (ContentView != null) {
 				ContentView.Dispose ();
 				ContentView = null;
@@ -31,11 +36,6 @@ namespace Demo.iOS.Views
 			if (SegmentControl != null) {
 				SegmentControl.Dispose ();
 				SegmentControl = null;
-			}
-
-			if (AddSegment != null) {
-				AddSegment.Dispose ();
-				AddSegment = null;
 			}
 		}
 	}

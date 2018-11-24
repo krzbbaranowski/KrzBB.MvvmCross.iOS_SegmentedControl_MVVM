@@ -8,7 +8,7 @@ using MvvmCross.Platforms.Ios.Presenters.Attributes;
 
 namespace Demo.iOS.Views
 {
-    [MvxRootPresentation()]
+    [MvxRootPresentation(WrapInNavigationController = true)]
     [SegmentedControlPresentation]
     public partial class RootView : SegmentedTabBarViewControllerBase<RootViewModel>
     {
