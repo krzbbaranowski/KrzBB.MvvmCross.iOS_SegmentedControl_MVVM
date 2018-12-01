@@ -1,9 +1,9 @@
 ﻿using System;
 using AppDemo.ViewModel;
 using MvvmCross.Platforms.Ios.Views;
-using KrzBB.SegmentButtonViewModel_MVVMCross.iOS.Attributes;
+using KrzBB.SegmentedControlPresenter_MVVMCross.iOS.Attributes;
 using UIKit;
-using KrzBB.SegmentButtonViewModel_MVVMCross.iOS.Views;
+using KrzBB.SegmentedControlPresenter_MVVMCross.iOS.Views;
 
 namespace Demo.iOS.Views.Tabs
 {

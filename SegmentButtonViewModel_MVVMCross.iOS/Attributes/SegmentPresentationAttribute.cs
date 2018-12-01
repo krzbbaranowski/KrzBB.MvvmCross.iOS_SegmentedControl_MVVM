@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using MvvmCross.Presenters.Attributes;
 
-namespace KrzBB.SegmentButtonViewModel_MVVMCross.iOS.Attributes
+namespace KrzBB.SegmentedControlPresenter_MVVMCross.iOS.Attributes
 {
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = true)]
     public class SegmentPresentationAttribute : MvxBasePresentationAttribute

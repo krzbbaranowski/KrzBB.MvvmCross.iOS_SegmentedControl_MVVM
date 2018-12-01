@@ -3,7 +3,7 @@ using MvvmCross.Platforms.Ios.Presenters.Attributes;
 using MvvmCross.ViewModels;
 using UIKit;
 
-namespace KrzBB.SegmentButtonViewModel_MVVMCross.iOS.Views
+namespace KrzBB.SegmentedControlPresenter_MVVMCross.iOS.Views
 {
     public interface ITouchViewControllerPresenter
     {

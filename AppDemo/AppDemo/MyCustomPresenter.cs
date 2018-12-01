@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using KrzBB.SegmentButtonViewModel_MVVMCross.iOS;
+using KrzBB.SegmentedControlPresenter_MVVMCross.iOS;
 using MvvmCross.Platforms.Ios.Presenters;
 using MvvmCross.Platforms.Ios.Presenters.Attributes;
 using MvvmCross.ViewModels;

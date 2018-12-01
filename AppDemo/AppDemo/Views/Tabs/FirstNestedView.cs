@@ -1,6 +1,6 @@
 ﻿using System;
 using AppDemo.ViewModel;
-using KrzBB.SegmentButtonViewModel_MVVMCross.iOS.Attributes;
+using KrzBB.SegmentedControlPresenter_MVVMCross.iOS.Attributes;
 using MvvmCross.Platforms.Ios.Views;
 using UIKit;
 

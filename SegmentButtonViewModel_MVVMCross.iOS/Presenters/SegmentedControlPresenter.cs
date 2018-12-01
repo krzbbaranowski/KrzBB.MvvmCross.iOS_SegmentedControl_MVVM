@@ -5,11 +5,11 @@ using MvvmCross.Platforms.Ios.Presenters;
 using MvvmCross.Platforms.Ios.Views;
 using MvvmCross.Presenters;
 using MvvmCross.ViewModels;
-using KrzBB.SegmentButtonViewModel_MVVMCross.iOS.Attributes;
-using KrzBB.SegmentButtonViewModel_MVVMCross.iOS.Views;
+using KrzBB.SegmentedControlPresenter_MVVMCross.iOS.Attributes;
+using KrzBB.SegmentedControlPresenter_MVVMCross.iOS.Views;
 using UIKit;
 
-namespace KrzBB.SegmentButtonViewModel_MVVMCross.iOS
+namespace KrzBB.SegmentedControlPresenter_MVVMCross.iOS
 {
     public class SegmentedControlPresenter
     {

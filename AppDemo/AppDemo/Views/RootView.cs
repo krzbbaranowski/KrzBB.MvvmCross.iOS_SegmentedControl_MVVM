@@ -2,8 +2,8 @@
 using AppDemo.ViewModel;
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.Platforms.Ios.Binding.Views.Gestures;
-using KrzBB.SegmentButtonViewModel_MVVMCross.iOS.Views;
-using KrzBB.SegmentButtonViewModel_MVVMCross.iOS.Attributes;
+using KrzBB.SegmentedControlPresenter_MVVMCross.iOS.Views;
+using KrzBB.SegmentedControlPresenter_MVVMCross.iOS.Attributes;
 using MvvmCross.Platforms.Ios.Presenters.Attributes;
 
 namespace Demo.iOS.Views

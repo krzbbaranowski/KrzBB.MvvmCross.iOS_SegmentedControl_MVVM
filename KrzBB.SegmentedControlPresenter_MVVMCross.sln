@@ -1,13 +1,13 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KrzBB.SegmentButtonViewModel_MVVMCross.iOS", "SegmentButtonViewModel_MVVMCross.iOS\KrzBB.SegmentButtonViewModel_MVVMCross.iOS.csproj", "{770596E4-DE9D-407F-B234-E6D6B8B682F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KrzBB.SegmentedControlPresenter_MVVMCross.iOS", "SegmentButtonViewModel_MVVMCross.iOS\KrzBB.SegmentedControlPresenter_MVVMCross.iOS.csproj", "{770596E4-DE9D-407F-B234-E6D6B8B682F1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppDemo", "AppDemo", "{79506C0F-C801-4503-8BC2-B4EAE83D7653}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDemo", "AppDemo\AppDemo\AppDemo.csproj", "{527BB035-B138-4527-A4DA-785EBB12D234}"
 EndProject
-Project("{5DD5E4FA-CB73-4610-85AB-557B54E96AA9}") = "KrzBB.SegmentButtonViewModel_MVVMCross.iOS.NuGet", "KrzBB.SegmentButtonViewModel_MVVMCross.iOS.NuGet\KrzBB.SegmentButtonViewModel_MVVMCross.iOS.NuGet.nuproj", "{02878D6B-304E-4D17-B98F-F36DD2786F9B}"
+Project("{5DD5E4FA-CB73-4610-85AB-557B54E96AA9}") = "KrzBB.SegmentedControlPresenter_MVVMCross.iOS.NuGet", "KrzBB.SegmentButtonViewModel_MVVMCross.iOS.NuGet\KrzBB.SegmentedControlPresenter_MVVMCross.iOS.NuGet.nuproj", "{02878D6B-304E-4D17-B98F-F36DD2786F9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

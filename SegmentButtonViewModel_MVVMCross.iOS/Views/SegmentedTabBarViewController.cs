@@ -4,10 +4,10 @@ using Cirrious.FluentLayouts.Touch;
 using Foundation;
 using MvvmCross.Platforms.Ios.Views;
 using MvvmCross.ViewModels;
-using KrzBB.SegmentButtonViewModel_MVVMCross.iOS.Attributes;
+using KrzBB.SegmentedControlPresenter_MVVMCross.iOS.Attributes;
 using UIKit;
 
-namespace KrzBB.SegmentButtonViewModel_MVVMCross.iOS.Views
+namespace KrzBB.SegmentedControlPresenter_MVVMCross.iOS.Views
 {
     public abstract class SegmentedTabBarViewControllerBase<TViewModel> : MvxViewController<TViewModel>, ISegmentedControlViewController
         where TViewModel : MvxViewModel

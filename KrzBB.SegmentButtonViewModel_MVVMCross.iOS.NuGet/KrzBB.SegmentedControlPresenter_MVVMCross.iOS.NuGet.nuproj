@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{02878D6B-304E-4D17-B98F-F36DD2786F9B}</ProjectGuid>
-    <Description>KrzBB.SegmentButtonViewModel_MVVMCross.iOS.NuGet</Description>
+    <Description>KrzBB.SegmentedControlPresenter_MVVMCross.iOS.NuGet</Description>
     <PackageId>KrzBB.SegmentButtonViewModel_MVVMCross.iOS.NuGet</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
     <Authors>Krzysztof Baranowski</Authors>
@@ -35,7 +35,7 @@
   <ItemGroup>
     <ProjectReference Include="..\SegmentButtonViewModel_MVVMCross.iOS\KrzBB.SegmentButtonViewModel_MVVMCross.iOS.csproj">
       <Project>{770596E4-DE9D-407F-B234-E6D6B8B682F1}</Project>
-      <Name>KrzBB.SegmentButtonViewModel_MVVMCross.iOS</Name>
+      <Name>KrzBB.SegmentedControlPresenter_MVVMCross.iOS</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

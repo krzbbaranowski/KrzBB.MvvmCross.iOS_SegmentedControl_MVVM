@@ -2,7 +2,7 @@
 using AppDemo.ViewModel;
 using MvvmCross.Platforms.Ios.Views;
 using MvvmCross.ViewModels;
-using KrzBB.SegmentButtonViewModel_MVVMCross.iOS.Attributes;
+using KrzBB.SegmentedControlPresenter_MVVMCross.iOS.Attributes;
 using UIKit;
 
 namespace Demo.iOS.Views.Tabs
