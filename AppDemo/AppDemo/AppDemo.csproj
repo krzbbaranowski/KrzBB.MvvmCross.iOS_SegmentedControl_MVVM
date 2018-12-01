@@ -155,7 +155,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\SegmentButtonViewModel_MVVMCross.iOS\KrzBB.SegmentedControlPresenter_MVVMCross.iOS.csproj">
+    <ProjectReference Include="..\..\SegmentedControlPresenter_MVVMCross.iOS\KrzBB.SegmentedControlPresenter_MVVMCross.iOS.csproj">
       <Project>{770596E4-DE9D-407F-B234-E6D6B8B682F1}</Project>
       <Name>KrzBB.SegmentedControlPresenter_MVVMCross.iOS</Name>
     </ProjectReference>

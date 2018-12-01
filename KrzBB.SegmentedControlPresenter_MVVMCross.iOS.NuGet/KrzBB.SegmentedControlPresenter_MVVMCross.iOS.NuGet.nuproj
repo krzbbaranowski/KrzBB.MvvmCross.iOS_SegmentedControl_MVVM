@@ -7,7 +7,7 @@
     <ProjectGuid>{02878D6B-304E-4D17-B98F-F36DD2786F9B}</ProjectGuid>
     <Description>Custom SegmetedControlPresenter for MvvmCross. You can use UISegmentedControl with VM.</Description>
     <PackageId>KrzBB.SegmentedControlPresenter_MVVMCross.iOS</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
     <Authors>Krzysztof Baranowski</Authors>
     <DevelopmentDependency>false</DevelopmentDependency>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -39,7 +39,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SegmentButtonViewModel_MVVMCross.iOS\KrzBB.SegmentedControlPresenter_MVVMCross.iOS.csproj">
+    <ProjectReference Include="..\SegmentedControlPresenter_MVVMCross.iOS\KrzBB.SegmentedControlPresenter_MVVMCross.iOS.csproj">
       <Project>{770596E4-DE9D-407F-B234-E6D6B8B682F1}</Project>
       <Name>KrzBB.SegmentedControlPresenter_MVVMCross.iOS</Name>
     </ProjectReference>
