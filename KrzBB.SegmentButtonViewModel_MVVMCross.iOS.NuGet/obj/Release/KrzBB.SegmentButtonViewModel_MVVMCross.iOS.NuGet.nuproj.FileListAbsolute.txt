@@ -1,0 +1,2 @@
+/Users/krzysiek/Projects/SegmentButtonViewModel_MVVMCross/KrzBB.SegmentButtonViewModel_MVVMCross.iOS.NuGet/obj/Release/KrzBB.SegmentButtonViewModel_MVVMCross.iOS.NuGet.nuprojAssemblyReference.cache
+/Users/krzysiek/Projects/SegmentButtonViewModel_MVVMCross/KrzBB.SegmentButtonViewModel_MVVMCross.iOS.NuGet/obj/Release/KrzBB.SegmentButtonViewModel_MVVMCross.iOS.NuGet.nuproj.CoreCompileInputs.cache

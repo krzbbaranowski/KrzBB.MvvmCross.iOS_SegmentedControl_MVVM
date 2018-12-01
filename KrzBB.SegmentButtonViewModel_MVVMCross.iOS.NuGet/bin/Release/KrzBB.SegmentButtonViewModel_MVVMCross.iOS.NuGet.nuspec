@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata minClientVersion="">
+    <id>KrzBB.SegmentButtonViewModel_MVVMCross.iOS.NuGet</id>
+    <version>1.0.0</version>
+    <title></title>
+    <authors>Krzysztof Baranowski</authors>
+    <owners>Krzysztof Baranowski</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>KrzBB.SegmentButtonViewModel_MVVMCross.iOS.NuGet</description>
+    <summary></summary>
+    <releaseNotes></releaseNotes>
+    <copyright></copyright>
+    <language></language>
+    <tags></tags>
+    <dependencies>
+      <group targetFramework="Xamarin.iOS1.0">
+        <dependency id="Cirrious.FluentLayout" version="2.8.0" />
+        <dependency id="MvvmCross" version="6.2.2" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Core" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="System" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="Xamarin.iOS" targetFramework="Xamarin.iOS1.0" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="/Users/krzysiek/Projects/SegmentButtonViewModel_MVVMCross/KrzBB.SegmentButtonViewModel_MVVMCross.iOS.NuGet/readme.txt" target="readme.txt" />
+    <file src="/Users/krzysiek/Projects/SegmentButtonViewModel_MVVMCross/SegmentButtonViewModel_MVVMCross.iOS/bin/Release/KrzBB.dll" target="lib/xamarinios10/KrzBB.dll" />
+  </files>
+</package>

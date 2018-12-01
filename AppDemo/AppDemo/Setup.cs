@@ -16,17 +16,9 @@ namespace AppDemo
             base.InitializeFirstChance();
         }
 
-        //protected override IMvxIosViewPresenter CreatePresenter()
-        //{
-        //    var presenter = new TouchViewPresenter((MvxApplicationDelegate)ApplicationDelegate, Window);
-        //    Mvx.RegisterSingleton<ITouchViewControllerPresenter>(presenter);
-        //    return presenter;
-        //}
-
-
         protected override IMvxIosViewPresenter CreateViewPresenter()
         {
-            var presenter = new TouchViewPresenter((MvxApplicationDelegate)ApplicationDelegate, Window);
+            var presenter = new CustomViewPresenter((MvxApplicationDelegate)ApplicationDelegate, Window);
             return presenter;
         }
     }

@@ -7,28 +7,29 @@ using UIKit;
 
 namespace AppDemo
 {
-    public class TouchViewPresenter : MvxIosViewPresenter
+    public class CustomViewPresenter : MvxIosViewPresenter
     {
-        SegmentedControlPresenter customePresenter;
+        private SegmentedControlPresenter _customPresenter;
 
-        public TouchViewPresenter(IUIApplicationDelegate applicationDelegate, UIWindow window)
+        public CustomViewPresenter(IUIApplicationDelegate applicationDelegate, UIWindow window)
             : base(applicationDelegate, window)
         {
-            customePresenter = new SegmentedControlPresenter(this);
+            _customPresenter = new SegmentedControlPresenter(this);
         }
 
         public override void RegisterAttributeTypes()
         {
             base.RegisterAttributeTypes();
 
-            customePresenter.RegisterAttributeTypes(AttributeTypesToActionsDictionary);
+            _customPresenter.RegisterAttributeTypes(AttributeTypesToActionsDictionary);
         }
 
         protected override async Task<bool> ShowRootViewController(UIViewController viewController, MvxRootPresentationAttribute attribute, MvxViewModelRequest request)
         {
-            customePresenter.AddSegmentedControlViewController(viewController, request);
+            _customPresenter.AddSegmentedControlViewController(viewController, request);
 
             return await base.ShowRootViewController(viewController, attribute, request);
         }
     }
 }
+
