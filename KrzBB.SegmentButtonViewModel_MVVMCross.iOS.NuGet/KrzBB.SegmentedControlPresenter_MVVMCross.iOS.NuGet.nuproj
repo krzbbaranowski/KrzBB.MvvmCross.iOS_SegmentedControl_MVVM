@@ -5,16 +5,16 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{02878D6B-304E-4D17-B98F-F36DD2786F9B}</ProjectGuid>
-    <Description>KrzBB.SegmentedControlPresenter_MVVMCross.iOS.NuGet</Description>
-    <PackageId>KrzBB.SegmentButtonViewModel_MVVMCross.iOS.NuGet</PackageId>
+    <Description>Custom SegmetedControlPresenter for MvvmCross. You can use UISegmentedControl with VM.</Description>
+    <PackageId>KrzBB.SegmentedControlPresenter_MVVMCross.iOS</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
     <Authors>Krzysztof Baranowski</Authors>
     <DevelopmentDependency>false</DevelopmentDependency>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <OutputType>Exe</OutputType>
-    <RootNamespace>KrzBB.SegmentButtonViewModel_MVVMCross.iOS.NuGet</RootNamespace>
+    <RootNamespace>KrzBB.SegmentedControlPresenter_MVVMCross.iOS.NuGet</RootNamespace>
     <UsePartialTypes>false</UsePartialTypes>
-    <AssemblyName>KrzBB.SegmentButtonViewModel_MVVMCross.iOS.NuGet</AssemblyName>
+    <AssemblyName>KrzBB.SegmentedControlPresenter_MVVMCross.iOS.NuGet</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
