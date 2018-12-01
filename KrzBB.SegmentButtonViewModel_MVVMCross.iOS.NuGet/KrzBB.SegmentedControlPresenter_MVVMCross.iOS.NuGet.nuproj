@@ -33,16 +33,16 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SegmentButtonViewModel_MVVMCross.iOS\KrzBB.SegmentButtonViewModel_MVVMCross.iOS.csproj">
-      <Project>{770596E4-DE9D-407F-B234-E6D6B8B682F1}</Project>
-      <Name>KrzBB.SegmentedControlPresenter_MVVMCross.iOS</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="NuGet.Build.Packaging">
       <Version>0.2.2</Version>
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SegmentButtonViewModel_MVVMCross.iOS\KrzBB.SegmentedControlPresenter_MVVMCross.iOS.csproj">
+      <Project>{770596E4-DE9D-407F-B234-E6D6B8B682F1}</Project>
+      <Name>KrzBB.SegmentedControlPresenter_MVVMCross.iOS</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
   <Import Project="$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.targets" Condition="Exists('$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.targets')" />
